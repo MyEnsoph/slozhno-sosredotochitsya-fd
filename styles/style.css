@@ -67,12 +67,13 @@
   margin: 0px;
   color: var(--bg-color);
   line-height: 23px;
+
   inline-size: clamp(355px, 50%, 491px);
 }
 
 .title-decor {
   margin-block: 20px 10.5px;
-  color: var(--bg-color);
+  color: var(--color-section-title);
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
@@ -81,10 +82,10 @@
 
 .title-decor-header {
   margin-block: 10px 10.5px;
-  color: var(--bg-color);
+  color: var(--color-section-title);
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.277;
   background-color: var(--accent-color-title);
 }
 
@@ -113,7 +114,7 @@
 .header__decor {
   position: absolute;
   display: var(--display-header-decor);
-  justify-self: end;
+  inset: 20px 20px auto auto;
   color: var(--accent-color-btn);
 }
 
@@ -194,7 +195,9 @@ h4.title-decor {
 
 .art__img {
   object-fit: cover;
+  object-position: center;
   inline-size: 100%;
+  block-size: 100%;
 }
 
 /* Footer */

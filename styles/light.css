@@ -8,6 +8,7 @@
   --accent-color-title: rgba(255, 141, 203, 1);
   --display-header-decor: none;
   --color-section-title: rgba(53, 52, 48, 1);
+  --color-decor-title: rgba(53, 52, 48, 1);
   --accent-color-opasity: rgba(53, 52, 48, 0.4);
 }
 
@@ -22,6 +23,7 @@
     --accent-color-title: rgba(255, 141, 203, 1);
     --display-header-decor: none;
     --color-section-title: rgba(53, 52, 48, 1);
+    --color-decor-title: rgba(53, 52, 48, 1);
     --accent-color-opasity: rgba(53, 52, 48, 0.4);
   }
 }

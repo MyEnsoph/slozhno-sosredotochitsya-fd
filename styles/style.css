@@ -65,15 +65,14 @@
   justify-self: end;
   align-self: center;
   margin: 0px;
-  color: var(--bg-color);
+  color: var(--color-decor-title);
   line-height: 23px;
-
   inline-size: clamp(355px, 50%, 491px);
 }
 
 .title-decor {
   margin-block: 20px 10.5px;
-  color: var(--color-section-title);
+  color: var(--color-decor-title);
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
@@ -82,7 +81,7 @@
 
 .title-decor-header {
   margin-block: 10px 10.5px;
-  color: var(--color-section-title);
+  color: var(--color-decor-title);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.277;
